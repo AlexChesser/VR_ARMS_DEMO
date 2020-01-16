@@ -6,6 +6,9 @@ public class RepositionBody : MonoBehaviour
 {
 
     [SerializeField] private Transform anchor;
+    [SerializeField] private float down;
+    [SerializeField] private float back;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +18,6 @@ public class RepositionBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = anchor.position + (Vector3.down * 1.65f) + (Vector3.back * 0.1f);
+        transform.position = anchor.position + (Vector3.down * down) + (Vector3.back * back);
     }
 }

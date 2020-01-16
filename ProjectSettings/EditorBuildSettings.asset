@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HandTest_Chesser.unity
+    guid: 0e1d9f1e036ad8e4ab43e83f86d2aaa7
+  - enabled: 1
+    path: Assets/Oculus/VR/Scenes/HandTest.unity
+    guid: b9a31e08066d6e343a208d34ec298f09
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
+    guid: a4f984fcee593d2418cc61f4a993d46d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3b23a8f6b40eb8f46ae9d08b1281f772,
       type: 2}
